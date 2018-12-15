@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
 import AppHeader from './components/AppHeader'
-import './App.css'
+import Routing from './routes'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <AppHeader />
+        <Routing />
       </div>
     )
   }
